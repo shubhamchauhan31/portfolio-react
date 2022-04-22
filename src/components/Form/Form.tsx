@@ -43,7 +43,7 @@ export function Form() {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          Voltar ao topo
+          Back to the top
         </button>
         <ToastContainer />
       </ContainerSucces>
