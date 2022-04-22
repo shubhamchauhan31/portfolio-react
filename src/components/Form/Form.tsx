@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('myyozglw')
+  const [state, handleSubmit] = useForm('mpzboalj')
 
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
@@ -31,6 +31,9 @@ export function Form() {
       })
     }
   })
+
+  console.log({state});
+  
   if (state.succeeded) {
     return (
       <ContainerSucces>
